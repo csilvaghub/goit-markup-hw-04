@@ -443,6 +443,7 @@ button.over:hover {
   border-right: none;
 
   background: #ffffff;
+  
 }
 
 .navegation {
@@ -455,8 +456,13 @@ button.over:hover {
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.link:active {
   color: #188ce8;
+}
+
+.icon:hover {
+  stroke: #188ce8;
 }
 
 :root {
@@ -549,12 +555,13 @@ button.over:hover {
 }
 
 /* info@devstudio.com */
-.devstudio {
+.devstudio{
   position: absolute;
-  width: 135px;
+  width: 170px;
   height: 16px;
   left: 1020px;
   top: 44px;
+  padding-right: 20px;
 
   font-family: var(--font-family);
   font-style: normal;
@@ -569,10 +576,11 @@ button.over:hover {
 /* +52 55 5529 6000 */
 .phone1 {
   position: absolute;
-  width: 118px;
+  width: 150px;
   height: 16px;
   left: 1170px;
   top: 44px;
+  padding-left: 20px;
 
   font-family: var(--font-family);
   font-style: normal;
@@ -582,6 +590,13 @@ button.over:hover {
   letter-spacing: 0.02em;
 
   color: #757575;
+}
+
+.position{
+  position: inherit;
+  align-content: first baseline;
+  padding-left: 5px;
+  top: 2px
 }
 
 :root {
