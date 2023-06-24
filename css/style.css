@@ -61,7 +61,7 @@
     rgba(255, 255, 255, 0) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
-  background-image: url("/images/sharing-food.jpg");
+  background-image: url("../images/sharing-food.jpg");
 }
 
 .first-title {
@@ -171,7 +171,7 @@
   width: 270px;
   height: 16px;
   left: 80px;
-  top: 18px;
+  top: 9px;
 
   font-family: var(--font-family);
   font-style: normal;
@@ -190,7 +190,7 @@
   width: 270px;
   height: 5px;
   left: 20px;
-  top: 0px;
+  top: -5px;
 
   font-family: var(--font-family);
   font-style: normal;
@@ -261,6 +261,11 @@
 .size-3{
   height: 400px;
 }
+
+.size-4{
+  height: 400px;
+  
+}
 .back-image-3 {
   background-image: url("/images/Rectángulo-3.png");
   width: 270px;
@@ -272,8 +277,8 @@
   position: relative;
   width: 270px;
   height: 16px;
-  left: 1015px;
-  top: -920px;
+  left: -10px;
+  top: 40px;
 
   font-family: var(--font-family);
   font-style: normal;
@@ -282,6 +287,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-size: 20px;
 
   color: #212121;
 }
@@ -289,19 +295,25 @@
 .column-p-moderm-tech {
   position: relative;
   width: 270px;
-  height: 75px;
-  left: 1015px;
-  top: -910px;
+  height: 30px;
+  left: 5px;
+  top: 15px;
 
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  font-size: 20px;
 
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+.size-astro{
+  height: 90px;
+  width: 90px;
 }
 
 .second-title {
@@ -547,15 +559,24 @@ button.over:hover {
   stroke: #188ce8;
 }
 
+.size-of-icon-1{
+  width: 	16px;
+  height: 12px;
+}
+
+.size-of-icon-2{
+  width: 	10px;
+  height: 16px;
+}
+
+.size-of-position-3{
+    width: 	70px;
+    height: 54px;
+    }
+
 :root {
   --web-studio: "Raleway";
 }
-
-.content-of-sobre-activable{
-  width:16px;
-  height:12px;
-}
-
 
 /* Estudio Web */
 .web-studio1 {
@@ -664,7 +685,7 @@ button.over:hover {
 /* +52 55 5529 6000 */
 .phone1 {
   position: absolute;
-  width: 150px;
+  width: 170px;
   height: 16px;
   left: 1170px;
   top: 44px;
@@ -731,6 +752,7 @@ button.over:hover {
 .position-2 {
   display: flex;
   flex-direction: row;
+  flex-basis: calc((100% - 3px)/4)
 }
 
 :root {
