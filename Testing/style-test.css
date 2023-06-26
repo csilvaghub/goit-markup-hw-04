@@ -1,0 +1,15 @@
+.icon-social-network{
+    height: 50px;
+    width: 50px;
+   border: 2px solid red;
+   padding:40px;
+   border-radius: 50px;
+}
+
+.icon-social-network:hover{
+    fill-opacity: 0; 
+    stroke: white;
+    background: #188ce8;
+    
+
+}

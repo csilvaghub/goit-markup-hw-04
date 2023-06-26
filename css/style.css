@@ -578,6 +578,32 @@ button.over:hover {
   --web-studio: "Raleway";
 }
 
+
+.icon-social-network{
+  height: 60px;
+  width: 60px;
+  
+  fill: #ffffff;
+   
+}
+
+.icon-social-network:hover {
+    stroke:white;
+      fill:#2196f3;
+    }
+
+    .ubicacion-1 >li{
+      display: inline;
+      align-content: center;
+      padding-left: 0px;
+    }
+
+    .ubicacion-1 {
+      padding-left: 0px;
+      
+    }
+
+      
 /* Estudio Web */
 .web-studio1 {
   position: absolute;
