@@ -159,7 +159,6 @@
 }
 
 .border-testing {
-  
   width: 390px;
   height: 400px;
   position: relative;
@@ -263,7 +262,6 @@
 
 .size-4 {
   height: 400px;
- 
 }
 .back-image-3 {
   background-image: url("/images/Rectángulo-3.png");
@@ -357,72 +355,69 @@
   height: 323.7px;
   left: 185px;
   top: 1330.3px;
-  
+
   background: url(/images/image_1.jpg);
   mix-blend-mode: normal;
 }
 
-.bg-1-img{
+.bg-1-img {
   position: absolute;
   top: 1562px;
   left: 385px;
   width: 372px;
   height: 92px;
-  
+
   padding: 40px;
   background-color: #212121;
   opacity: 0.6;
-   }
+}
 
-.title-position1{
+.title-position1 {
   position: absolute;
   top: 1582px;
   left: 438px;
   color: #ffffff;
   text-transform: uppercase;
-  
 }
 
-.bg-2-img{
+.bg-2-img {
   position: absolute;
   top: 1562px;
   left: 811px;
   width: 372px;
   height: 92px;
-  
+
   padding: 40px;
   background-color: #212121;
   opacity: 0.6;
-   }
+}
 
-.title-position2{
+.title-position2 {
   position: absolute;
   top: 1582px;
   left: 900px;
   color: #ffffff;
   text-transform: uppercase;
-  
 }
 
-.bg-3-img{
+.bg-3-img {
   position: absolute;
   top: 1562px;
   left: 1225px;
   width: 372px;
   height: 92px;
-  
+
   padding: 40px;
   background-color: #212121;
   opacity: 0.6;
-   }
+}
 
-.title-position3{
+.title-position3 {
   position: absolute;
   top: 1582px;
   left: 1310px;
   color: #ffffff;
   text-transform: uppercase;
-  
 }
 
 .second-image {
@@ -617,7 +612,7 @@ button.over:hover {
   color: #188ce8;
 }
 
-.logos-figure{
+.logos-figure {
   fill: #afb1b8;
   width: 230px;
   height: 100px;
@@ -626,7 +621,7 @@ button.over:hover {
   padding-top: 15px;
 }
 
-.logos-figure:hover{
+.logos-figure:hover {
   fill: #188ce8;
   width: 230px;
   border: 1px solid #188ce8;
@@ -634,24 +629,21 @@ button.over:hover {
 
 .icon-email:hover {
   stroke: #188ce8;
-  }
+}
 
-.icon{
+.icon {
   height: 80px;
   margin: 32px;
   width: 210px;
 }
 
-.bg-icon{
+.bg-icon {
   height: 130px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
-
-
 
 .icon:hover {
   stroke: #188ce8;
-  
 }
 
 .size-of-icon-1 {
@@ -672,24 +664,35 @@ button.over:hover {
 :root {
   --web-studio: "Raleway";
 }
+
 .location {
   width: 100%;
   display: flex;
   flex-basis: calc((100% - 20px) / 4);
-  
+}
+
+.location-2 {
+  position: absolute;
+  width: 300px;
+  display: flex;
+  flex-basis: calc((50% - 50px) / 4);
+  left: 580px;
+  top: 60px;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .color-svg {
   display: flex;
   border-radius: 25px;
-  }
+}
 
 .color-svg:hover {
   background: #188ce8;
   height: 35px;
   width: 35px;
   display: inline;
-  }
+}
 
 .icon-social-network {
   height: 20px;
@@ -697,22 +700,44 @@ button.over:hover {
   fill: #afb1b8;
   margin-top: 7px;
   margin-left: 0px;
-  }
+}
 
- 
 .color-svg:hover .icon-social-network {
   height: 20px;
   width: 20px;
   fill: #ffffff;
 }
 
+.icon-social-network-final {
+  height: 40px;
+  width: 40px;
+  fill: #afb1b8;
+  margin-top: 2px;
+  padding: 2px;
+}
+
+.color-svg-final:hover .icon-social-network-final {
+  height: 40px;
+  width: 40px;
+  fill: #ffffff;
+  margin-top: 2px;
+  padding: 2px;
+}
+
+.color-svg-final:hover {
+  background: #188ce8;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50px;
+}
 
 .ubicacion-1 > li {
   display: flex;
   flex-basis: auto;
   padding-left: 8px;
   border-radius: 25px;
-
 }
 
 .ubicacion-1 .color-svg {
@@ -728,8 +753,7 @@ button.over:hover {
   flex-basis: auto;
   padding-left: 8px;
   border-radius: 25px;
- 
-  }
+}
 
 .ubicacion-2 .color-svg {
   padding-left: 8px;
@@ -744,32 +768,39 @@ button.over:hover {
   flex-basis: auto;
   padding-left: 8px;
   border-radius: 25px;
- 
-  }
+}
 
-  .ubicacion-3 .color-svg {
-    padding-left: 8px;
-    margin: 5px;
-    display: flex;
-    height: 35px;
-    width: 35px;
-  }
+.ubicacion-3 .color-svg {
+  padding-left: 8px;
+  margin: 5px;
+  display: flex;
+  height: 35px;
+  width: 35px;
+}
 
-  .ubicacion-4 > li {
-    display: flex;
-    flex-basis: auto;
-    padding-left: 8px;
-    border-radius: 25px;
-   
-    }
-  
-    .ubicacion-4 .color-svg {
-      padding-left: 8px;
-      margin: 5px;
-      display: flex;
-      height: 35px;
-      width: 35px;
-    }
+.ubicacion-4 > li {
+  display: flex;
+  flex-basis: auto;
+  padding-left: 8px;
+  border-radius: 25px;
+}
+
+.ubicacion-4 .color-svg {
+  padding-left: 8px;
+  margin: 5px;
+  display: flex;
+  height: 35px;
+  width: 35px;
+}
+
+.ubicacion-final > li {
+  display: flex;
+  flex-basis: auto;
+  padding: 20px;
+  border-radius: 25px;
+  width: 500px;
+}
+
 /* Estudio Web */
 .web-studio1 {
   position: absolute;
@@ -1327,27 +1358,26 @@ button.over:hover {
   color: #ffffff;
 }
 
-.font-style{
+.font-style {
   font-size: 44px;
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 900;
   line-height: 60px;
-  
+
   text-align: center;
 }
-.location-3{
+.location-3 {
   padding-top: 20px;
-
 }
 
-.log-p{
+.log-p {
   width: 100%;
   display: flex;
-  flex-basis: calc((95% - 10px)/6);
-  justify-content: center;  
-  padding: 30px;
-  }
+  flex-basis: calc((95% - 10px) / 6);
+  justify-content: center;
+  padding: 5px;
+}
 
 .final-section-1 {
   position: absolute;
@@ -1356,6 +1386,15 @@ button.over:hover {
   left: 0px;
   top: 3000px;
   background: #2f303a;
+}
+
+.final-2-section-2 {
+  position: absolute;
+  color: #ffffff;
+  left: 600px;
+  top: 50px;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .final-section-2 {
