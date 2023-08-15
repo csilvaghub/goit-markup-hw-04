@@ -211,9 +211,17 @@ SVG STYLES
   stroke: #188ce8;
 }
 
+.svg-hover:hover > .size-of-icon-1{
+  color: #188ce8;
+}
+
 .size-of-icon-2 {
   width: 10px;
   height: 16px;
+}
+
+.svg-hover:hover > .size-of-icon-2{
+  color: #188ce8;
 }
 
 .bg-icon {
