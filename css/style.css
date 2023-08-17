@@ -318,12 +318,12 @@ SVG STYLES
 .style-bg-1 {
   background-image: linear-gradient(
       180deg,
-      rgba(162, 165, 166, 1) 0%,
-      rgba(135, 137, 144, 1) 4%,
-      rgba(91, 91, 108, 1) 16%,
-      rgba(55, 54, 79, 1) 39%,
-      rgba(26, 25, 56, 1) 74%,
-      rgba(2, 0, 36, 1)
+      rgba(162, 165, 166, 0.2) 0%,
+      rgba(135, 137, 144, 0.4) 4%,
+      rgba(91, 91, 108, 0.5) 16%,
+      rgba(55, 54, 79, 0.5) 39%,
+      rgba(26, 25, 56, 0.5) 74%,
+      rgba(2, 0, 36, 1)100%
     ),
     url(../images/sharing-food.jpg);
 
